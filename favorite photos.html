@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Favorite photos</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+      integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js"
+      integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+    <link rel="manifest" href="/site.webmanifest" />
+    <style>
+      .card {
+        border-radius: 1em;
+        text-align: center;
+      }
+      .card:hover {
+        background-color: rgba(0, 0, 0, 0.1);
+      }
+      .card img {
+        border-radius: 50%;
+        width: 80%;
+        margin: auto;
+        padding: 1em;
+      }
+    </style>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container">
+        <a class="navbar-brand p-0" href="index.html">
+          <img src="logo.png" alt="logo" width="50" />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="favorite photos.html"
+                >Favorite photos</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div class="container my-5">
+      <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-5">
+        <div class="col">
+          <div class="card">
+            <img src="ph1.jpg" class="card-img-top" alt="..." height="500" />
+            <div class="card-body">
+              <h5 class="card-title">В шляпке</h5>
+              <p class="card-text">
+                Тут я в крутой шляпе у родителей во дворе.
+              </p>
+              <a
+                href="https://sun9-6.userapi.com/impg/ek8kRQ2Ze7Ppq5bU-uxBPSD3VR-4byqZetLtTg/msr7Qi3JybQ.jpg?size=811x1080&quality=96&sign=f38cb0a42396f3b1dadb0fcecd138dc9&type=album"
+                target="_blank"
+                class="btn btn-primary"
+                >Full photo</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="ph2.jpg" class="card-img-top" alt="..." height="500" />
+            <div class="card-body">
+              <h5 class="card-title">Жена</h5>
+              <p class="card-text">Такая красивая и любимая,что капец.</p>
+              <a
+                href="https://sun9-88.userapi.com/impg/QY8RnbFW76P2kRSh9bDryndbiRKU5fngdHik_g/jJInI-nIwK8.jpg?size=1440x2160&quality=95&sign=30d2e0c0e95c049b95abd919b94a575f&type=album"
+                target="_blank"
+                class="btn btn-primary"
+                >Full photo</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="ph3.jpg" class="card-img-top" alt="..." height="500" />
+            <div class="card-body">
+              <h5 class="card-title">В Москве</h5>
+              <p class="card-text">Тут я в Москве, гуляю.</p>
+              <a
+                href="https://sun9-12.userapi.com/impf/c841132/v841132933/3501c/hWa7tHXZeC8.jpg?size=532x960&quality=96&sign=8db326e1f17445891d2adb45f6e68fc8&type=album"
+                target="_blank"
+                class="btn btn-primary"
+                >Full photo</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
